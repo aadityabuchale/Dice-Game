@@ -8,9 +8,7 @@ function NumberSelector({
 
     const numArray = [1 ,2 , 3 , 4 , 5 , 6];
 
-
-    const numberSelectorHandler = (n) => {
-        setSelectedNumber(n);
+    const numberSelectorHandler = (n) => { setSelectedNumber(n);
         setError("");
     }
   return (
